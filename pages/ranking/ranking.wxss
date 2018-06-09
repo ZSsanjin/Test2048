@@ -1,0 +1,22 @@
+/* pages/ranking/ranking.wxss */
+.font{
+color:coral;
+font-weight: 600;
+font-size: 80rpx;
+text-align:center;
+display: block;
+margin: 30rpx 0rpx 0rpx 0rpx;
+}
+.windows {
+  height: 150rpx;
+  padding: 100rpx 0;
+  background-color:  antiquewhite;
+  
+} 
+.userinfo {
+  height: 900rpx;
+ 
+}
+.windowscolor{
+background-color: antiquewhite;
+}

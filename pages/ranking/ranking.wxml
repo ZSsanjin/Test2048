@@ -1,0 +1,19 @@
+<!--pages/ranking/ranking.wxml-->
+<view class='windowscolor' >
+<view class='windows'>
+<text class='font' bindtap=''>排行榜</text>
+</view>
+
+
+ 
+<view>
+<text>排名: ---用户名----分数</text>
+
+</view>
+
+<view class='userinfo'>
+<view  wx:for="{{results}}" >
+  {{index+1}}:---{{userInfo.nickName}}-----{{item.bestScore}}
+</view>
+</view>
+</view>
